@@ -1,0 +1,69 @@
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.row{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.paddingRL{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* vista mobile */
+@media only screen and (min-width:0px) and (max-width:999px){
+  .header{
+    text-align: center;
+    .carrito{
+      display: none;
+    }
+    .login{
+      display: none;
+    }
+  }
+  .labelCarousel{
+    font-size: 25px;
+  }
+  .carousel{
+    width: 100%;
+  }
+  .imgMarcas{
+    width: 50%;
+    height: auto;
+  }
+  .imgFilas{
+    width: auto;
+    height: 200px;
+  }
+  .columnas{
+    text-align: center;
+  }
+  .footer{
+    text-align: center;
+  }
+}
+/* vista desktop */
+@media only screen and (min-width:1000px){
+  .nav-item{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .labelCarousel{
+    font-size: 35px;
+  }
+  .form-inline{
+    padding-left: 30px;
+  }
+  .imgFilas{
+    width: auto;
+    height: 400px;
+}
+
+}

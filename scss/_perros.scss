@@ -1,0 +1,20 @@
+@import "colores";
+@import "generales";
+@import "botones";
+.fondo{
+    background-image: url(../img/fondo-patas-colorido.jpg);
+    background-size: cover;
+    background-repeat: repeat;   
+    .titulosCategorias{
+        font-size: 25px;
+        text-align: center;
+        color: $naranjaP;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .imgCentrado{
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+

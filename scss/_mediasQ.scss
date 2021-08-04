@@ -1,0 +1,34 @@
+/* vista mobile */
+@media only screen and (min-width:0px) and (max-width:969px){
+    .header{
+      text-align: center;
+      .carrito{
+        visibility: hidden;
+      }
+      .login{
+        visibility: hidden;
+      }
+    }
+    .imgFilas{
+      width: auto;
+      height: 200px;
+    }
+    .footer{
+      text-align: center;
+    }
+  }
+  /* vista desktop */
+  @media only screen and (min-width:970px){
+    .nav-item{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .form-inline{
+      padding-left: 30px;
+    }
+    .imgFilas{
+      width: auto;
+      height: 400px;
+  }
+
+  }
