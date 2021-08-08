@@ -22,11 +22,9 @@
   .header {
     text-align: center; }
     .header .carrito {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
     .header .login {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
   .labelCarousel {
     font-size: 25px; }
   .carousel {
@@ -44,6 +42,18 @@
 
 /* vista desktop */
 @media only screen and (min-width: 1000px) {
+  .header .carrito {
+    display: flex;
+    align-items: center; }
+    .header .carrito img {
+      width: 80%;
+      height: auto; }
+  .header .login {
+    display: flex;
+    align-items: center; }
+    .header .login img {
+      width: 80%;
+      height: auto; }
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
@@ -61,23 +71,6 @@
   background-repeat: no-repeat;
   top: 0px; }
 
-/*.carrito{
-    display: flex;
-    align-items: center;
-    img{
-        width: 80%;
-        height: auto;
-    }
-     
-}
-.login{
-    display: flex;
-    align-items: center;
-    img{
-        width: 80%;
-        height: auto;
-    }
-}*/
 .navbar-collapse {
   align-items: center;
   justify-content: center; }
@@ -157,11 +150,9 @@
   .header {
     text-align: center; }
     .header .carrito {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
     .header .login {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
   .labelCarousel {
     font-size: 25px; }
   .carousel {
@@ -179,6 +170,18 @@
 
 /* vista desktop */
 @media only screen and (min-width: 1000px) {
+  .header .carrito {
+    display: flex;
+    align-items: center; }
+    .header .carrito img {
+      width: 80%;
+      height: auto; }
+  .header .login {
+    display: flex;
+    align-items: center; }
+    .header .login img {
+      width: 80%;
+      height: auto; }
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
@@ -221,11 +224,9 @@
   .header {
     text-align: center; }
     .header .carrito {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
     .header .login {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
   .labelCarousel {
     font-size: 25px; }
   .carousel {
@@ -243,6 +244,18 @@
 
 /* vista desktop */
 @media only screen and (min-width: 1000px) {
+  .header .carrito {
+    display: flex;
+    align-items: center; }
+    .header .carrito img {
+      width: 80%;
+      height: auto; }
+  .header .login {
+    display: flex;
+    align-items: center; }
+    .header .login img {
+      width: 80%;
+      height: auto; }
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
@@ -290,31 +303,6 @@
     text-align: center;
     padding-top: 20px; }
 
-/* vista mobile */
-@media only screen and (min-width: 0px) and (max-width: 969px) {
-  .header {
-    text-align: center; }
-    .header .carrito {
-      visibility: hidden; }
-    .header .login {
-      visibility: hidden; }
-  .imgFilas {
-    width: auto;
-    height: 200px; }
-  .footer {
-    text-align: center; } }
-
-/* vista desktop */
-@media only screen and (min-width: 970px) {
-  .nav-item {
-    padding-left: 30px;
-    padding-right: 30px; }
-  .form-inline {
-    padding-left: 30px; }
-  .imgFilas {
-    width: auto;
-    height: 400px; } }
-
 .boton, .boton--comprar, .boton--añadir, .boton--enviar, .boton--resetear {
   width: 150px;
   height: 50px;
@@ -336,6 +324,72 @@
 
 .boton--resetear {
   background-color: darkgray; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%; }
+
+.row {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.paddingRL {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/* vista mobile */
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+  .header {
+    text-align: center; }
+    .header .carrito {
+      display: none; }
+    .header .login {
+      display: none; }
+  .labelCarousel {
+    font-size: 25px; }
+  .carousel {
+    width: 100%; }
+  .imgMarcas {
+    width: 50%;
+    height: auto; }
+  .imgFilas {
+    width: auto;
+    height: 200px; }
+  .columnas {
+    text-align: center; }
+  .footer {
+    text-align: center; } }
+
+/* vista desktop */
+@media only screen and (min-width: 1000px) {
+  .header .carrito {
+    display: flex;
+    align-items: center; }
+    .header .carrito img {
+      width: 80%;
+      height: auto; }
+  .header .login {
+    display: flex;
+    align-items: center; }
+    .header .login img {
+      width: 80%;
+      height: auto; }
+  .nav-item {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .labelCarousel {
+    font-size: 35px; }
+  .form-inline {
+    padding-left: 30px; }
+  .imgFilas {
+    width: auto;
+    height: 400px; } }
 
 .fondo {
   background-image: url(img/senderoHuellas.jpg);
@@ -393,11 +447,9 @@
   .header {
     text-align: center; }
     .header .carrito {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
     .header .login {
-      display: none;
-      /*visibility: hidden;*/ }
+      display: none; }
   .labelCarousel {
     font-size: 25px; }
   .carousel {
@@ -415,6 +467,18 @@
 
 /* vista desktop */
 @media only screen and (min-width: 1000px) {
+  .header .carrito {
+    display: flex;
+    align-items: center; }
+    .header .carrito img {
+      width: 80%;
+      height: auto; }
+  .header .login {
+    display: flex;
+    align-items: center; }
+    .header .login img {
+      width: 80%;
+      height: auto; }
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }

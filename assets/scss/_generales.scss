@@ -51,6 +51,24 @@
 }
 /* vista desktop */
 @media only screen and (min-width:1000px){
+  .header{
+    .carrito{
+      display: flex;
+      align-items: center;
+      img{
+          width: 80%;
+          height: auto;
+      } 
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        img{
+            width: 80%;
+            height: auto;
+        }
+    }
+  }  
   .nav-item{
     padding-left: 30px;
     padding-right: 30px;
@@ -64,6 +82,6 @@
   .imgFilas{
     width: auto;
     height: 400px;
-}
+  }
 
 }
