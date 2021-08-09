@@ -81,6 +81,7 @@
   }
   .columnas{
     text-align: center;
+    padding-top: 5px;
   }
   .footer{
     text-align: center;
@@ -117,8 +118,15 @@
     padding-left: 30px;
   }
   .imgFilas{
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: auto;
-    height: 400px;
+    height: 250px;
   }
-
+  .columnas{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+  
 }
