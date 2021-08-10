@@ -357,6 +357,132 @@
     text-align: center;
     padding-top: 20px; }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%; }
+
+.row {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.paddingRL {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.header {
+  background-image: linear-gradient(to bottom, #e31006, #f06e0f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0px; }
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: center; }
+
+.nav-link {
+  color: white;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; }
+
+.footer {
+  background-image: linear-gradient(to bottom, #e31006, #f06e0f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px; }
+  .footer .row {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 5px; }
+  .footer .colFooter {
+    color: white;
+    text-decoration: none; }
+
+/* vista mobile */
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+  .header {
+    text-align: center; }
+    .header .carrito {
+      display: none; }
+    .header .login {
+      display: none; }
+  .labelCarousel {
+    font-size: 25px; }
+  .carousel {
+    width: 100%; }
+  .imgMarcas {
+    width: 50%;
+    height: auto; }
+  .imgFilas {
+    width: auto;
+    height: 200px; }
+  .columnas {
+    text-align: center;
+    padding-top: 5px; }
+  .footer {
+    text-align: center; } }
+
+/* vista desktop */
+@media only screen and (min-width: 1000px) {
+  .header .carrito {
+    display: flex;
+    align-items: center; }
+    .header .carrito img {
+      width: 80%;
+      height: auto; }
+  .header .login {
+    display: flex;
+    align-items: center; }
+    .header .login img {
+      width: 80%;
+      height: auto; }
+  .nav-item {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .labelCarousel {
+    font-size: 35px; }
+  .form-inline {
+    padding-left: 30px; }
+  .imgFilas {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    height: 250px; }
+  .columnas {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px; } }
+
+.contProductos .groupCheckbox p {
+  text-align: center;
+  color: #f06e0f;
+  font-weight: bolder; }
+
+.contProductos .titulosCategorias {
+  font-size: 25px;
+  text-align: center;
+  color: #f06e0f;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.contProductos .imgCentrado {
+  text-align: center;
+  padding-top: 20px; }
+
+.contProductos .paddingBot {
+  padding-bottom: 22px; }
+
 .contContacto {
   justify-content: center;
   align-items: center;
