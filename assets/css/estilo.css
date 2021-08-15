@@ -73,7 +73,7 @@
   position: absolute;
   right: 15%;
   top: 20px;
-  left: 15%;
+  left: 55%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -141,6 +141,8 @@
   .footer .colFooter {
     color: white;
     text-decoration: none; }
+  .footer .centrado {
+    text-align: center; }
 
 /* vista mobile 
 @media only screen and (min-width:0px) and (max-width:999px){
@@ -349,6 +351,8 @@
   .footer .colFooter {
     color: white;
     text-decoration: none; }
+  .footer .centrado {
+    text-align: center; }
 
 /* vista mobile 
 @media only screen and (min-width:0px) and (max-width:999px){
@@ -506,6 +510,8 @@
   .footer .colFooter {
     color: white;
     text-decoration: none; }
+  .footer .centrado {
+    text-align: center; }
 
 /* vista mobile 
 @media only screen and (min-width:0px) and (max-width:999px){
