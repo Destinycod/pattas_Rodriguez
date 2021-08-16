@@ -23,17 +23,48 @@
       width: 1300px;
       height: auto;
     }
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      top: 20px;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      /*background-color: rgba(0, 0, 0, 0.2); */
+    }
+    .labelSliderEnvio{
+      position: absolute;
+      right: 15%;
+      top: 50px;
+      left: 55%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      -webkit-text-stroke: 0.8px white;
+      font-weight: bolder;
+      p{
+        margin-top: 30px;
+        font-size: 25px;
+        color: rgb(219, 133, 133);
+      }
+      h2{
+        font-size: 35px;
+        color: rgb(202, 86, 86);
+      }
+    }
+    .gatoDurmiendo{
+      position: absolute;
+      right: 85%;
+      top: 20px;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
   }
   
-  .carousel-caption {
-    position: absolute;
-    right: 15%;
-    top: 20px;
-    left: 55%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.2); 
-  }
+  
