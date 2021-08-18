@@ -14,6 +14,26 @@
   }
   .carousel{
     width: 100%;
+    .gatoDurmiendo img{
+      width: 50%;
+      height: auto;
+    }
+    .labelSliderEnvio{
+      position: absolute;
+      right: 5%;
+      top: 10px;
+      left: 5%;
+      z-index: 10;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      h2{
+        font-size: 25px;
+      }
+      p{
+        font-size: 18px;
+        margin-top: 5px;
+      }
+    }
   }
   .imgMarcas{
     width: 32.5%;
@@ -71,6 +91,8 @@
     text-align: center;
     padding-top: 5px;
     padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 

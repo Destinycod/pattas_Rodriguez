@@ -255,26 +255,62 @@
     padding: 10px; }
 
 .boton, .boton--comprar, .boton--añadir, .boton--enviar, .boton--resetear {
-  width: 120px;
+  width: 130px;
   height: 50px;
   color: white;
   text-align: center;
+  text-decoration: none;
   border-radius: 20px;
   border: 1px solid black;
   padding-top: 10px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white; }
 
 .boton--comprar {
-  background-color: #f06e0f; }
+  background-color: white;
+  color: black;
+  border: 2px solid #f06e0f; }
+
+.boton--comprar:hover {
+  background-color: #f06e0f;
+  color: white; }
 
 .boton--añadir {
-  background-color: #e31006; }
+  background-color: white;
+  color: black;
+  border: 2px solid #e31006; }
+
+.boton--añadir:hover {
+  background-color: #e31006;
+  color: white; }
 
 .boton--enviar {
-  background-color: gray; }
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid gray; }
+
+.boton--enviar:hover {
+  background-color: gray;
+  color: white; }
 
 .boton--resetear {
-  background-color: darkgray; }
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid darkgray; }
+
+.boton--resetear:hover {
+  background-color: darkgray;
+  color: white; }
 
 .fondo {
   background-image: url(../img/fondo-patas-colorido.jpg);
@@ -291,26 +327,62 @@
     padding-top: 20px; }
 
 .boton, .boton--comprar, .boton--añadir, .boton--enviar, .boton--resetear {
-  width: 120px;
+  width: 130px;
   height: 50px;
   color: white;
   text-align: center;
+  text-decoration: none;
   border-radius: 20px;
   border: 1px solid black;
   padding-top: 10px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white; }
 
 .boton--comprar {
-  background-color: #f06e0f; }
+  background-color: white;
+  color: black;
+  border: 2px solid #f06e0f; }
+
+.boton--comprar:hover {
+  background-color: #f06e0f;
+  color: white; }
 
 .boton--añadir {
-  background-color: #e31006; }
+  background-color: white;
+  color: black;
+  border: 2px solid #e31006; }
+
+.boton--añadir:hover {
+  background-color: #e31006;
+  color: white; }
 
 .boton--enviar {
-  background-color: gray; }
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid gray; }
+
+.boton--enviar:hover {
+  background-color: gray;
+  color: white; }
 
 .boton--resetear {
-  background-color: darkgray; }
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid darkgray; }
+
+.boton--resetear:hover {
+  background-color: darkgray;
+  color: white; }
 
 .fondo {
   background-image: url(img/senderoHuellas.jpg);
@@ -629,6 +701,22 @@
     font-size: 25px; }
   .carousel {
     width: 100%; }
+    .carousel .gatoDurmiendo img {
+      width: 50%;
+      height: auto; }
+    .carousel .labelSliderEnvio {
+      position: absolute;
+      right: 5%;
+      top: 10px;
+      left: 5%;
+      z-index: 10;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .carousel .labelSliderEnvio h2 {
+        font-size: 25px; }
+      .carousel .labelSliderEnvio p {
+        font-size: 18px;
+        margin-top: 5px; }
   .imgMarcas {
     width: 32.5%;
     height: auto; }
@@ -670,7 +758,9 @@
   .columnas {
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 15px; } }
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px; } }
 
 /*
 @media only screen and (min-width:0px) and (max-width:969px){
