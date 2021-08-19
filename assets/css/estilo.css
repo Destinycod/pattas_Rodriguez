@@ -700,23 +700,7 @@
   .labelCarousel {
     font-size: 25px; }
   .carousel {
-    width: 100%; }
-    .carousel .gatoDurmiendo img {
-      width: 50%;
-      height: auto; }
-    .carousel .labelSliderEnvio {
-      position: absolute;
-      right: 5%;
-      top: 10px;
-      left: 5%;
-      z-index: 10;
-      padding-top: 10px;
-      padding-bottom: 10px; }
-      .carousel .labelSliderEnvio h2 {
-        font-size: 25px; }
-      .carousel .labelSliderEnvio p {
-        font-size: 18px;
-        margin-top: 5px; }
+    display: none; }
   .imgMarcas {
     width: 32.5%;
     height: auto; }
@@ -746,6 +730,8 @@
   .nav-item {
     padding-left: 30px;
     padding-right: 30px; }
+  .imgSliderMobile {
+    display: none; }
   .labelCarousel {
     font-size: 35px; }
   .form-inline {
