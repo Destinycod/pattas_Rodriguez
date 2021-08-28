@@ -1,4 +1,124 @@
 @charset "UTF-8";
+.boton, .boton--comprar, .boton--añadir, .boton--enviar, .boton--resetear {
+  width: 130px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white; }
+
+.boton--comprar {
+  background-color: white;
+  color: black;
+  border: 2px solid #f06e0f; }
+
+.boton--comprar:hover {
+  background-color: #f06e0f;
+  color: white; }
+
+.boton--añadir {
+  background-color: white;
+  color: black;
+  border: 2px solid #e31006; }
+
+.boton--añadir:hover {
+  background-color: #e31006;
+  color: white; }
+
+.boton--enviar {
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid gray; }
+
+.boton--enviar:hover {
+  background-color: gray;
+  color: white; }
+
+.boton--resetear {
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid darkgray; }
+
+.boton--resetear:hover {
+  background-color: darkgray;
+  color: white; }
+
+.img404 {
+  text-align: center;
+  padding-top: 30px; }
+
+.boton, .boton--comprar, .boton--añadir, .boton--enviar, .boton--resetear {
+  width: 130px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white; }
+
+.boton--comprar {
+  background-color: white;
+  color: black;
+  border: 2px solid #f06e0f; }
+
+.boton--comprar:hover {
+  background-color: #f06e0f;
+  color: white; }
+
+.boton--añadir {
+  background-color: white;
+  color: black;
+  border: 2px solid #e31006; }
+
+.boton--añadir:hover {
+  background-color: #e31006;
+  color: white; }
+
+.boton--enviar {
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid gray; }
+
+.boton--enviar:hover {
+  background-color: gray;
+  color: white; }
+
+.boton--resetear {
+  border-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px solid darkgray; }
+
+.boton--resetear:hover {
+  background-color: darkgray;
+  color: white; }
+
 /*.header{
     background-image: linear-gradient(to bottom, $rojoP,$naranjaP);
     background-size: cover;
@@ -146,6 +266,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem; }
 
+/*.imgFilas{
+  
+}*/
 .footer {
   background-image: linear-gradient(to bottom, #e31006, #f06e0f);
   background-size: cover;
@@ -352,6 +475,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem; }
 
+/*.imgFilas{
+  
+}*/
 .footer {
   background-image: linear-gradient(to bottom, #e31006, #f06e0f);
   background-size: cover;
@@ -435,6 +561,82 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem; }
 
+/*.imgFilas{
+  
+}*/
+.footer {
+  background-image: linear-gradient(to bottom, #e31006, #f06e0f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px; }
+  .footer .row {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 5px; }
+  .footer .colFooter {
+    color: white;
+    text-decoration: none; }
+  .footer .centrado {
+    text-align: center; }
+
+.footer {
+  background-image: linear-gradient(to bottom, #e31006, #f06e0f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px; }
+  .footer .row {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 5px; }
+  .footer .colFooter {
+    color: white; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%; }
+
+.row {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.paddingRL {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.header {
+  background-image: linear-gradient(to bottom, #e31006, #f06e0f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0px; }
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: center; }
+
+.nav-link {
+  color: white;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; }
+
+/*.imgFilas{
+  
+}*/
 .footer {
   background-image: linear-gradient(to bottom, #e31006, #f06e0f);
   background-size: cover;
@@ -473,18 +675,13 @@
     text-align: center; }
     .imgSliderMobile .labelSliderEnvioV h2 {
       position: absolute;
-      top: 20%;
+      top: 45%;
       left: 50%;
       transform: translate(-50%, -50%);
-      text-decoration: underline; }
-    .imgSliderMobile .labelSliderEnvioV p {
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-weight: bold; }
+      text-decoration: underline;
+      font-size: 30px; }
   .imgMarcas {
-    width: 32.5%;
+    width: 38.5%;
     height: auto; }
   .imgFilas {
     width: auto;
@@ -492,8 +689,13 @@
   .columnas {
     text-align: center;
     padding-top: 5px; }
+  .tituloContacto img {
+    width: 365px;
+    height: auto; }
   .footer {
-    text-align: center; } }
+    text-align: center; }
+    .footer .footerD {
+      display: none; } }
 
 /* vista desktop */
 @media only screen and (min-width: 970px) {
@@ -525,46 +727,13 @@
     padding-top: 5px;
     padding-bottom: 5px;
     width: auto;
-    height: 250px; }
+    height: 250px;
+    transition: all 1s; }
+  .imgFilas:hover {
+    transform: translateY(-15px); }
   .columnas {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 15px;
     padding-left: 5px;
     padding-right: 5px; } }
-
-/*
-@media only screen and (min-width:0px) and (max-width:969px){
-    .header{
-      text-align: center;
-      .carrito{
-        visibility: hidden;
-      }
-      .login{
-        visibility: hidden;
-      }
-    }
-    .imgFilas{
-      width: auto;
-      height: 200px;
-    }
-    .footer{
-      text-align: center;
-    }
-  }
-  /* vista desktop 
-  @media only screen and (min-width:970px){
-    .nav-item{
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .form-inline{
-      padding-left: 30px;
-    }
-    .imgFilas{
-      width: auto;
-      height: 400px;
-  }
-
-  }
-  */
