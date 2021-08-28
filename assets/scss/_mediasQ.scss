@@ -1,5 +1,5 @@
 /* vista mobile */
-@media only screen and (min-width:0px) and (max-width:969px){
+@media only screen and (min-width:0px) and (max-width:969.9px){
   .header{
     text-align: center;
     .carrito{
@@ -14,6 +14,27 @@
   }
   .carousel{
     display: none;
+  }
+  .imgSliderMobile{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    .labelSliderEnvioV{
+      h2{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-decoration: underline;
+      }
+      p{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+      }
+    }
   }
   .imgMarcas{
     width: 32.5%;
@@ -60,6 +81,12 @@
   }
   .labelCarousel{
     font-size: 35px;
+  }
+  .carousel-item{
+    .imgCarousel{
+      width: 1500px;
+      height: 320px;
+    }
   }
   .form-inline{
     padding-left: 30px;
