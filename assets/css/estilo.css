@@ -185,17 +185,6 @@
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; }
-  .carousel-item .carousel-caption {
-    position: absolute;
-    right: 15%;
-    top: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    /*background-color: rgba(0, 0, 0, 0.2); */ }
   .carousel-item .labelSliderEnvio {
     position: absolute;
     right: 15%;
@@ -204,24 +193,39 @@
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
-    -webkit-text-stroke: 0.8px white;
-    font-weight: bolder; }
+    text-align: center; }
     .carousel-item .labelSliderEnvio p {
       margin-top: 30px;
       font-size: 25px;
-      color: #db8585; }
+      color: #db8585;
+      -webkit-text-stroke: 0.8px #ca5656;
+      font-weight: bolder; }
     .carousel-item .labelSliderEnvio h2 {
       font-size: 35px;
-      color: #ca5656; }
-  .carousel-item .gatoDurmiendo {
+      color: #ca5656;
+      -webkit-text-stroke: 0.8px #db8585;
+      font-weight: bolder; }
+  .carousel-item .labelSliderServicios {
     position: absolute;
-    right: 85%;
+    right: 55%;
     top: 20px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    text-align: left;
+    -webkit-text-stroke: 0.8px white;
+    font-weight: bolder; }
+    .carousel-item .labelSliderServicios p {
+      margin-top: 15px;
+      font-size: 25px;
+      color: #f06e0f;
+      -webkit-text-stroke: 0.8px #e31006; }
+    .carousel-item .labelSliderServicios h2 {
+      font-size: 35px;
+      color: #e31006;
+      -webkit-text-stroke: 0.8px #f06e0f;
+      margin-bottom: 15px; }
 
 .medioDePago {
   text-align: center;
